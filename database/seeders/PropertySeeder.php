@@ -8,6 +8,6 @@ class PropertySeeder extends DatabaseSeeder
 {
     public function run(): void
     {
-        Property::factory()->count(30)->create();
+        Property::factory()->count(20)->create();
     }
 }

@@ -21,7 +21,7 @@
 @if ($properties)
     <ul>
         @foreach ($properties as $property)
-            <li>
+            <li class="t__property">
                 <strong>Location:</strong> {{ $property->location }}<br>
                 <strong>Near the beach:</strong> {{ $property->near_beach ? 'Yes' : 'No' }}<br>
                 <strong>Accepts pets:</strong> {{ $property->accepts_pets ? 'Yes' : 'No' }}<br>
